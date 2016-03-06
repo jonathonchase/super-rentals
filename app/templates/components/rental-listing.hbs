@@ -6,5 +6,5 @@
 {{#if isImageShowing}}
   <p><img src={{rental.image}} alt={{rental.type}} width="500"></p>
 {{else}}
-  <button>Show Image</button>
+  <button {{action "imageShow"}}>Show Image</button>
 {{/if}}
