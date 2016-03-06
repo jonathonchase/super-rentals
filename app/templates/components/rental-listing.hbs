@@ -5,6 +5,7 @@
 <p>Number of bedrooms: {{rentail.bedrooms}}</p>
 {{#if isImageShowing}}
   <p><img src={{rental.image}} alt={{rental.type}} width="500"></p>
+  <button {{action "imageHide"}}>Hide Image</button>
 {{else}}
   <button {{action "imageShow"}}>Show Image</button>
 {{/if}}
