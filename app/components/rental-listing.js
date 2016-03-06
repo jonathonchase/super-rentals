@@ -10,5 +10,4 @@ export default Ember.Component.extend({
       this.set('isImageShowing', false);
     }
   }
-
 });
