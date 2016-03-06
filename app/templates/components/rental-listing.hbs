@@ -3,3 +3,8 @@
 <p>Type: {{rentail.type}}</p>
 <p>Location: {{rentail.city}}</p>
 <p>Number of bedrooms: {{rentail.bedrooms}}</p>
+{{#if isImageShowing}}
+  <p><img src={{rental.image}} alt={{rental.type}} width="500"></p>
+{{else}}
+  <button>Show Image</button>
+{{/if}}
